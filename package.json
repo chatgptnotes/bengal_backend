@@ -1,0 +1,22 @@
+{
+  "name": "bjp-bengal-backend",
+  "version": "1.0.0",
+  "description": "BJP Bengal Backend - Twitter Proxy & Transcription Server",
+  "main": "twitter-proxy.cjs",
+  "scripts": {
+    "start": "node twitter-proxy.cjs",
+    "proxy": "node twitter-proxy.cjs",
+    "transcription": "node start-transcription-server.cjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.20.0",
+    "socket.io": "^4.8.1",
+    "xml2js": "^0.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
