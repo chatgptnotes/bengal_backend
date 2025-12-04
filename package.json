@@ -1,10 +1,10 @@
 {
   "name": "bjp-bengal-backend",
   "version": "1.0.0",
-  "description": "BJP Bengal Backend - Twitter Proxy & Transcription Server",
-  "main": "twitter-proxy.cjs",
+  "description": "BJP Bengal Backend - Combined Proxy & Transcription Server",
+  "main": "start-server.cjs",
   "scripts": {
-    "start": "node twitter-proxy.cjs",
+    "start": "node start-server.cjs",
     "proxy": "node twitter-proxy.cjs",
     "transcription": "node start-transcription-server.cjs"
   },
